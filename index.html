@@ -293,7 +293,29 @@
 
     </div>
 </section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/n" style="flex: 1 1; height: 0rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"></a></p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/playervimeo/vimeo_player.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
-  
+
+
+<br>
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Eternal Garden</h5>
+    <p class="card-text">Artist: Dan Henig</p>
+    <button type="button" onclick="sound.play()" class="btn btn-dark">Start</button>
+    <button type="button" onclick="sound.pause()" class="btn btn-light">Pause</button>
+    <button type="button" onclick="sound.stop()" class="btn btn-dark">Stop</button>
+  </div>
+  <div class="card-footer text-muted">
+    Música de la pagina
+  </div>
+</div>
+<br>
+<script>
+var sound = new Howl({
+  src: ['Eternal Garden.mp3']
+});
+</script>  
+
 </body>
 </html>
